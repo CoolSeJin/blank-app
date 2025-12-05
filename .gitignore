@@ -23,15 +23,7 @@ wheels/
 # Virtual Environment
 venv/
 env/
-ENV/
 .env
-
-# Streamlit
-.streamlit/
-
-# OS
-.DS_Store
-Thumbs.db
 
 # IDE
 .vscode/
@@ -39,5 +31,9 @@ Thumbs.db
 *.swp
 *.swo
 
-# Logs
-*.log
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml  # secrets는 GitHub에 올리지 않음!
